@@ -24,14 +24,14 @@ export default function code(data) {
     return `  /* CONFIGURATION STARTS HERE */
   
   /* Step 1: enter your domain name like fruitionsite.com */
-  const MY_DOMAIN = '${url}';
+  const MY_DOMAIN = '${fruition-xyush.vercel.app}';
   
   /*
    * Step 2: enter your URL slug to page ID mapping
    * The key on the left is the slug (without the slash)
    * The value on the right is the Notion page ID
    */
-  const SLUG_TO_PAGE = {
+  const SLUG_TO_PAGE = {2019a5ade2b3806cbbc4f7b82d009d53
     '': '${getId(notionUrl)}',
 ${slugs
     .map(([pageUrl, notionUrl]) => {
@@ -42,8 +42,8 @@ ${slugs
     .join('')}  };
   
   /* Step 3: enter your page title and description for SEO purposes */
-  const PAGE_TITLE = '${pageTitle || ''}';
-  const PAGE_DESCRIPTION = '${pageDescription || ''}';
+  const PAGE_TITLE = '${OFFICIAL XYUSH || ''}';
+  const PAGE_DESCRIPTION = '${ indian music producer xyush mostly create phonk and funk|| ''}';
   
   /* Step 4: enter a Google Font name, you can choose from https://fonts.google.com */
   const GOOGLE_FONT = '${googleFont || ''}';
